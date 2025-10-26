@@ -1,0 +1,481 @@
+<!doctype html>
+<!-- CPTAC DCC SANDBOX / PRIVATE RESOURCE TEMPLATE -->
+
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"><!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="x-ua-compatible" content="IE=EDGE"/>
+
+        <title>CPTAC-DCC</title>
+
+
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,700,700italic,400italic" rel='stylesheet'>
+		<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:400,400italic,700,700italic" rel='stylesheet'>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Noto+Sans" rel="stylesheet">
+
+
+        <link rel="shortcut icon" href="/cptac/assets/favicon-c8d93b92033eeb384f83f5fe3beda953.png" type="image/x-icon" />
+			 <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+
+		<meta name="keywords"/>
+		<meta name="description"/>
+		<meta name="content-language" content="en"/>
+
+		
+        <meta name="layout" content="cabezon_sb_main"/>
+		    <r:require module="jquery"/>
+        <script>
+
+           document.getElementById("login_link").innerHTML = "Paragraph changed.";
+        </script>
+        <!-- PPP-1151 emergency banner for government shutdowns -->
+        <script src="https://assets.adobedtm.com/6a4249cd0a2c/785de09de161/launch-70d67a6a40a8.min.js" async></script>
+
+    
+
+		<script type="text/javascript" src="/cptac/assets/jquery-3e7e1bd0ba2b5883fe9cb12c6dda5552.js" ></script>
+
+		<script type="text/javascript" src="/cptac/assets/bootstrap-ded001ed2fd787a24bad554754c7e55b.js" ></script>
+		<script type="text/javascript" src="/cptac/assets/datatables-f5114bb333554fe502dcab550c7e338b.js" ></script>
+
+		<script type="text/javascript" src="/cptac/assets/loading-1cfd406dd931a0833fb6d6c9c004ec0e.js" ></script>
+		<script type="text/javascript" src="/cptac/assets/utils-e15fae0014a1af8581fdb67a3b6f50ed.js" ></script>
+
+		<link rel="stylesheet" href="/cptac/assets/cabezon-b7a81aa370d54af00e9600355d114391.css" />
+		<link rel="stylesheet" href="/cptac/assets/core-1302c936557a98ce460df9783195b284.css" />
+		<link rel="stylesheet" href="/cptac/assets/utils-5e47514e9bfcbdb46dd8fbbafc800e18.css" />
+		<link rel="stylesheet" href="/cptac/assets/main_menu-51d06ca755465758c075abab8c21f08d.css" />
+
+		
+
+
+<script type="text/javascript">
+
+</script>
+
+  
+
+<script type='text/javascript' id="scriptLog">
+
+function doLogin() {
+		var username = $("input#j_username").val();
+		var password = $("input#j_password").val();
+	 	var dataString = 'j_username=' + username + '&j_password=' + password;
+	 	//alert(dataString);//return false;
+	 	$.ajax({
+	   		type: "POST",
+	   		url: "/cptac/j_spring_security_check",
+	   		data: dataString,
+	   		success:function(response) {
+
+				 if (response.success == true)
+				 {
+						$('#actions').load('/cptac/ #actions');
+						$('#lMenu').load('/cptac/ #lMenu');
+						$('#hMenu').load('/cptac/ #hMenu');
+						$('#content').load('/cptac/ #content');
+						$("#ajaxLogout").click(doLogout);
+						SendStatusMsg("Log in Succesful", "Welcome back! " + response.username);
+				 }
+				 else
+				 {
+					 SendErrorMsg("Login error", response.error);
+				 }
+	  	 	}
+	 	});
+}
+
+function doLogout() {
+
+    	 $.ajax({
+	    	   type: "POST",
+	    	   url: "/cptac/logout",
+	    	   success:function(response) {
+
+	   	         		var logoutUrl = '/cptac/sandbox/'
+						$('#actions').load(	logoutUrl + ' #actions');
+						$('#lMenu').load(	logoutUrl + ' #lMenu');
+						$('#hMenu').load(	logoutUrl + ' #hMenu');
+						$('#content').load(	logoutUrl + ' #content');
+						//SendStatusMsg("Logout Succesful", "Your session with CPTAC has been terminated.");
+
+				   //location.reload(true);
+           location.replace('/cptac/sandbox/');
+				}
+	    });
+};
+
+</script>
+
+  
+  <!-- END Site Banner Slot (#genSlotSiteBanner) -->
+
+
+		<!-- PPP-1151 emergency banner for government shutdowns -->
+        <script src="https://assets.adobedtm.com/6a4249cd0a2c/785de09de161/launch-70d67a6a40a8.min.js" async></script>
+
+</head>
+
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node node-type-page section-data-portal" style="font-family: Arial, Helvetica, sans-serif;">
+
+<!--start nci_header-->
+<div class="row full-width banner minibar">
+	<div class="minibanner-white">
+		<section class="row ">
+			<div class="large-8 columns left-banner-block">
+				<div id="block-block-1" class="block block-block block-block-1">
+					<div class="content">
+						<a href="https://proteomics.cancer.gov/" id="logo" style="border:none;">
+							<img src="/cptac/assets/cabezon/dctd_logo_54-fa65ebac71454d4d6e830f202308d46d.png" alt="NCI OCCPR logo" usemap="#NIHmap"/>
+	              <map name="NIHmap">
+			            <area shape="rect" coords="2,20,89,80" href="http://www.nih.gov" target="_blank" alt="NIH - National Institutes of Health" style="outline:none;">
+			            <area shape="rect" coords="99,28,351,45" href="http://www.cancer.gov" target="_blank" alt="National Cancer Institute" style="outline:none;">
+			            <area shape="rect" coords="99,52,597,78" href="http://dctd.cancer.gov" target="_blank" alt="DCTD - Division of Cancer Treatment and Diagnosis" style="outline:none;">
+	              </map>
+             </a>
+					</div>
+				</div>
+			</div>
+			<div class="large-4 columns right-banner-block">
+				<div id="block-block-43" class="block block-block top-header-links block-block-43">
+
+				</div>
+			</div>
+		</section>
+	</div>
+</div>
+
+<!--end nci_header-->
+
+<!--start nci_slogan-->
+<div class="row full-width banner minibarslogan">
+	<section class="row ">
+		<div class="large-12 columns slogan-banner-block">
+			<div id="block-block-2" class="block">
+				<div class="content" style="height: 40px;background-color:#1C5E86;width: 100%;line-height:40px;font-weight:300;font-size: 1.4em;color:white">
+						<a href="https://proteomics.cancer.gov/" target="_blank" title="OCCPR homepage" class="banner_link" style="color:white;outline:none;">CPTAC Data Coordinating Center Private Portal</a>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+
+<!--end nci_slogan-->
+
+
+<!--.page -->
+<div role="document" class="page">
+	<div class="row full-width header">
+
+		<!--.l-header region -->
+		<header role="banner" class="l-header">
+
+			<!-- Title, slogan and menu -->
+			<section class="row" id="nav_menu">
+				<!--@@@PPP-595-updates to white banner - updated column widths in rows -->
+				<div class="large-3 columns" >
+        <!--@@@PPP-624-change aliqnment private portal home and other menu block -->
+			 	<div class="main-menu-block">
+						<div class="block block-block block-block-40" id="block-block-40" style="margin-top:12px">
+							<div class="content">
+								<ul class="menu left-menu">
+									<li class="first">
+										<a href="/cptac/sandbox" rel="home" title="Home"><i aria-hidden="true" class="fa fa-home fa-stack-2x"></i>    Private Data Portal Home</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+				</div>
+				</div>
+				<div class="large-8 columns" style="margin-top:9px">
+					<div class="menu-wrapper">
+						<div class="block block-menu-block main-menu-block block-menu-block-5" id="block-menu-block-5">
+							<div class="content">
+								<div class="menu-block-wrapper menu-block-5 menu-name-menu-data-portal parent-mlid-0 menu-level-2">
+									<ul class="menu">
+
+										
+										<li class="last expanded menu-mlid-637">
+											<span class="nolink">DCC Help</span>
+											<ul class="main-menu-block">
+												<li class="last leaf menu-mlid-642">
+													<a href="/cptac/faq/showSandbox">Frequently Asked Questions</a>
+												</li>
+												<li class="last leaf menu-mlid-642">
+													<!-- PPP-478 - contact form integrated into UI -->
+												  <a href="/cptac/contact/contactUs">Contact Us</a>
+												</li>
+											</ul>
+										</li>
+									  
+										
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="large-1 columns">
+				<!--@@@PPP-624-not-able-to-click-logout-change-password in menu -->
+				
+			</div>
+			</section>
+			<!-- End title, slogan and menu -->
+
+
+
+
+			 <hr style="height:10px;background-color:#1C5E86;width: 100%;margin:0px;">
+
+
+
+
+			<!--end nci_slogan-->
+
+		</header>
+		<!--/.l-header -->
+
+	</div>
+	<!--/.row.full-width.header-->
+
+	<div class="row full-width main">
+		<div class="large-12 main columns main-content-wrapper" style="margin-bottom: 0">
+			<!--
+			<div class="title-content"> <a id="title-content"></a>
+				
+					<div class="page-title-wrapper arrow_box">
+						<div id="genSlotPageOptions" style="padding-bottom:0px">
+							<div class="contentid slot-item only-SI">
+								<p class="genSitePrintButton"><a href="javascript:window.print()">PRINT</a></p>
+							</div>
+						</div>
+					</div>
+				
+			</div>
+			<!--/.title-content -->
+
+		</div>
+
+
+		<main role="main" class="row l-main">
+
+
+			<div class="large-12 main columns main-content-wrapper">
+
+				<div class="main-content"> <a id="main-content"></a>
+
+					<div id="block-system-main" class="block block-system block-system-main">
+						<div class="content">
+							<article id="node" class="node node-page view-mode-full"></article>
+
+							<!----- START HERE ----->
+							<div class="genSiteContentContainer clearFix" >
+								<div id="content">
+								
+
+
+
+
+
+
+
+  <div class="row">
+    
+    <div class="columns small-2 large-3" style="padding-top:150px;">
+
+
+      
+<aside role="complementary">
+	<div id="block-block-19" class="block block-block block-block-19 block-odd clearfix">
+		<div class="content">
+			<!-- Login Form -->
+			<form action="/cptac/login/authenticate" method="POST" id="loginForm" class="clearFix" autocomplete="off">
+			<div class="">
+			<!--	<p style="margin-bottom: 0">Username:</p> -->
+				<input style="height:40px;font-color:black;font-size:16px;border-color:black;border-width:.8px;border-radius:6px;font-weight:bold;" class="login" type="text" name="username" id="j_username"  value="" size="23" placeholder="username" />
+
+			<!--	<p style="margin-bottom: 0">Password:</p> -->
+				<input style="height:40px;color:black !important;font-size:16px;border-color:black;border-width:.8px;border-radius:6px;font-weight:bold;" type="password" class="text_" name="password" id="password" placeholder="password"/>
+
+				<p id="remember_me_holder">
+					<input style="height:40px;width:40px;margin-top:1.5px;border-width:2px !important;" type="checkbox" class="chk" name="remember-me" id="remember_me" />
+					<label style="font-size:16px;font-weight:bold;margin-top:10px;" for="remember_me">Remember me</label>
+				</p>
+
+				<input type="submit" id="submit"  value="Login" style="text-align:left;font-size:16px;font-weight:bold;height:40px;width:100%;background-color:#0275d8;color:white;border-radius:6px;padding-left:10px;border: none;"/>
+			<br><br>
+			<div class="login_menu_link" style="font-size:16px;font-weight:bold;color:black !important;">
+				<a href="/cptac/user/register">Register</a>
+			</div>
+				<div class="login_menu_link" style="font-size:16px;font-weight:bold;color:black !important;">
+					<a href="/cptac/user/usernameRecovery">Username Recovery</a>
+				</div>
+			<div class="login_menu_link" style="font-size:16px;font-weight:bold;color:black !important;">
+				<a href="/cptac/user/passwordRecovery">Password Recovery</a>
+			</div>
+
+			</div>
+
+			</form>
+		</div>
+	</div>
+</aside>
+
+
+    </div>
+
+<div class="columns small-4 large-9">
+  <div id="genSlotTitle" style="margin-left:0;">
+    <div class="contentid slot-item only-SI">
+
+      <!-- Begin Page content title -->
+    <!-- PPP-662 - redo landing page text -->
+    <!-- PPP-958 - update font family private portal text -->
+    <h1 style = "font-family: Arial, Helvetica, sans-serif;">CPTAC Private Data Portal</h1>
+      <!-- End Page content title -->
+
+    </div>
+  </div>
+  <div id="genSlotBody">
+    <div class="contentid slot-item only-SI">
+  <!-- Begin Main Content -->
+  <p style="font-family: Arial, Helvetica, sans-serif;">
+  <br>
+  The CPTAC Private Data Portal Data is a resource for the Clinical Proteomic Tumor Analysis Consortium (CPTAC)
+  members to facilitate the transfer of data between the Proteome Characterization Centers (PCCs),
+  Proteogenomic Data Analysis Centers (PCDACs), and Proteogenomic Translational Research Centers (PTRCs).
+  <!--
+  <br><br>
+  Each group has a designated area to exchange data with members of their own research team and then
+  directories are presented to navigate to folders with data shared between project teams.
+  -->
+  </p>
+  <p style="font-family: Arial, Helvetica, sans-serif;">
+  The PGDAC directory has folders for cancer cohorts in progress and sub-folders contain raw proteomic data
+  along with files from the CPTAC Common Data Analysis Pipeline (CDAP), such as peptide spectrum matches
+  (PSMs) and protein summary reports.
+  <br><br>
+  The CPTAC Private Data Portal is managed by the Data Coordinating Center project team with scientists and
+  engineers from ICF and Georgetown University (GU). This resource is supported by NCI at the National
+  Institutes of Health (NIH) and is part of the Leidos Proteomic Data Management program.
+  <br><br>
+  If you need assistance please contact us <a href="mailto:cptac.dcc.help@esacinc.com?Subject=CPTAC-DCC%20Data%20Portal">here.</a>
+  <br><br>
+  </p>
+      </div>
+  </div>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<script>
+   //remove login link from main page
+	 document.getElementById("login_link").style.display = 'none';
+</script>
+ 
+									<div id="spinner" class="spinner" style="display:none;">Loading&hellip;</div>
+								</div>
+							</div>
+							<!----- END CONTENT ----->
+
+						</div>
+					</div>
+				</div>
+				<!--/.main-content -->
+
+			</div>
+			<!--/.main region -->
+
+		</main>
+		<!--/.main-->
+
+	</div>
+	<!--/.row.full-width.main-->
+
+	<div class="row full-width footer">
+
+		<!--.l-footer-->
+
+		<footer class="l-footer row" role="contentinfo">
+     <!-- PPP-556-update-footer-508-compliance-->
+			<div class="footer large-12 columns">
+				<div class="block block-menu block-menu-menu-footer-menu" id="block-menu-menu-footer-menu">
+					<div class="content">
+						<ul class="menu">
+							<li class="first leaf">
+								<a href="http://www.cancer.gov/" target="_blank">NCI Home</a>
+							</li>||
+							<li class="leaf">
+								<a href="https://www.cancer.gov/policies/accessibility" target="_blank">Accessibility</a>
+							</li>||
+							<li class="leaf">
+								<a href="https://www.cancer.gov/policies/disclaimer" target="_blank">Disclaimer Policies</a>
+							</li>||
+							<li class="leaf">
+								<a href="https://www.cancer.gov/policies/foia" target="_blank">FOIA</a>
+							</li>||
+							<li class="leaf">
+								 <a href="https://www.hhs.gov/vulnerability-disclosure-policy" target="_blank">HHS VULNERABILITY DISCLOSURE</a>
+							</li>||
+							<li class="leaf">
+								<a href="http://proteomics.cancer.gov/" target="_blank">OCCPR Home</a>
+							</li>||
+							<li class="last leaf">
+								<a href="http://proteomics.cancer.gov/contact-us" target="_blank">Contact Us</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="block block-block block-block-4" id="block-block-4">
+					<div class="content">
+						<ul class="menu">
+							<li class="first leaf">
+								<a href="http://www.hhs.gov"
+								   target="_blank">U.S. Department of Health and Human Services</a>
+							</li>||
+							<li class="leaf">
+								<a href="http://www.nih.gov" target="_blank">National Institutes of Health</a>
+							</li>||
+							<li class="leaf">
+								<a href="https://www.cancer.gov" target="_blank">National Cancer Institute</a>
+							</li>||
+							<li class="last leaf">
+								<a href="http://www.usa.gov" target="_blank">USA.gov</a>
+							</li>
+						</ul>
+						<p>NIH…Turning Discovery Into Health<sup>®</sup></p>
+					</div>
+				</div>
+
+			</div>
+
+		</footer>
+
+		<!--/.footer-->
+
+	</div>
+	<!--/.row.full-width.footer-->
+
+</div>
+<!--/.page -->
+
+
+
+</body>
+
+</html>

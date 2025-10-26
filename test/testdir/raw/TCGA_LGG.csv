@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+<script>window.CDEConfig = {
+  "general": {
+    "apiServer": "https:\/\/webapis.cancer.gov",
+    "mediaServer": "https:\/\/nci-media.cancer.gov"
+  },
+  "glossaryConfig": {
+    "apiServer": "https:\/\/webapis.cancer.gov\/glossary\/v1\/"
+  },
+  "sitewideSearchConfig": {
+    "searchApiServer": "https:\/\/webapis.cancer.gov\/sitewidesearch\/v1\/"
+  },
+  "exitDisclaimerHref": {
+    "en": "https:\/\/www.cancer.gov\/policies\/linking"
+  }
+};</script>
+<script id="ncids-nav-info">window.ncidsNavInfo = { nav: { id: "141", menu_type: "section-nav"}, item_id: 141};</script>
+<meta name="description" content="The Cancer Genome Atlas (TCGA) is a landmark cancer genomics program that sequenced and molecularly characterized over 11,000 cases of primary cancer samples. Learn more about how the program transformed the cancer research community and beyond." />
+<link rel="canonical" href="https://www.cancer.gov/ccg/research/genome-sequencing/tcga" />
+<meta http-equiv="content-language" content="en" />
+<meta name="robots" content="index" />
+<meta property="og:type" content="Website" />
+<meta property="og:url" content="https://www.cancer.gov/ccg/research/genome-sequencing/tcga" />
+<meta property="og:title" content="The Cancer Genome Atlas Program (TCGA)" />
+<meta property="og:description" content="The Cancer Genome Atlas (TCGA) is a landmark cancer genomics program that sequenced and molecularly characterized over 11,000 cases of primary cancer samples. Learn more about how the program transformed the cancer research community and beyond." />
+<meta property="og:image" content="https://www.cancer.gov/ccg/sites/g/files/xnrzdm256/files/styles/cgov_social_media/public/cgov_image/media_image/2022-05/TCGA%20topic%20-%20feature%20card.png" />
+<meta name="cgdp.domain" content="ccg" />
+<meta name="cgdp.template" content="ncids_default" />
+<meta name="dcterms.subject" content="Research" />
+<meta name="dcterms.type" content="cgvMiniLanding" />
+<meta name="dcterms.coverage" content="nciglobal,ncienterprise" />
+<meta name="dcterms.isPartOf" content="Research Landing Page" />
+<meta name="dcterms.isReferencedBy" content="event1" />
+<meta name="dcterms.issued" content="2022-05-13" />
+<meta name="twitter:card" content="summary" />
+<link rel="icon" href="https://www.cancer.gov/ccg/profiles/custom/cgov_site/themes/custom/cgov/static/images/design-elements/icons/favicons/favicon.ico" sizes="32x32"/>
+<link rel="icon" href="https://www.cancer.gov/ccg/profiles/custom/cgov_site/themes/custom/cgov/static/images/design-elements/icons/favicons/favicon.svg" type="image/svg+xml"/>
+<link rel="apple-touch-icon" href="https://www.cancer.gov/ccg/profiles/custom/cgov_site/themes/custom/cgov/static/images/design-elements/icons/favicons/apple-touch-icon.png"/>
+<link rel="manifest" href="https://www.cancer.gov/ccg/profiles/custom/cgov_site/themes/custom/cgov/static/images/design-elements/icons/favicons/site.webmanifest"/>
+<meta name="x-no-op" content="none" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, minimum-scale=1" />
+<script id="cgov-adobe-url" type="text/javascript" src="//assets.adobedtm.com/6a4249cd0a2c/949e98979342/launch-5f2a5357bf66.min.js" async="async"></script>
+<script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebSite",
+            "name": "National Cancer Institute (.gov)",
+            "url": "https://www.cancer.gov/ccg"
+        }
+    ]
+}</script>
+<link rel="alternate" hreflang="en" href="https://www.cancer.gov/ccg/research/genome-sequencing/tcga" />
+
+    <title>The Cancer Genome Atlas Program (TCGA) - NCI</title>
+    <link rel="preconnect" href="https://static.cancer.gov" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Roboto+Mono:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <meta name="apple-mobile-web-app-title" content="Cancer.gov" />
+    <meta name="application-name" content="Cancer.gov" />
+    <link rel="stylesheet" media="all" href="/ccg/sites/g/files/xnrzdm256/files/css/css_deAj3NJO5LFfUHcgNqV17AlJpocpZXtSBiVDS5FtUpo.css?delta=0&amp;language=en&amp;theme=ncids_trans&amp;include=eJxFyEEKwCAMBMAPqXlSiY1oQJeQ6KG_Lz31Ngxulbi2M4LwOS-F5skQRU_Gzt3ZRpD4MZ7ln3Jgp06N0STFE7stqhztBVThIIw" />
+<link rel="stylesheet" media="all" href="/ccg/profiles/custom/cgov_site/themes/custom/ncids_trans/dist/css/ncids-minimal.css?t3ucbp" />
+<link rel="stylesheet" media="all" href="/ccg/profiles/custom/cgov_site/themes/custom/ncids_trans/dist/css/ncids-mini-landing.css?t3ucbp" />
+
+    
+  </head>
+  <body class="has-translated-content">
+        <a href="#main-content" class="usa-skipnav">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+
+
+  <section id="usa-banner" class="usa-banner" aria-label="Official government website">
+  <header class="usa-banner__header">
+    <div class="usa-banner__inner">
+      <div class="usa-banner__header-text">
+        An official website of the United States government
+      </div>
+            
+    </div>
+  </header>
+</section>
+
+
+  <div id="block-ncids-trans-sitealertshutdown">
+  
+    
+      <section
+  aria-label="Slim info site alert example"
+  class="usa-site-alert usa-site-alert--slim usa-site-alert--info"
+>
+  <div class="usa-alert">
+    <div class="usa-alert__body">
+      <div class="usa-alert__text">
+       <strong>Government Funding Lapse</strong><br>Because of a lapse in government funding, the information on this website may not be up to date, transactions submitted via the website may not be processed, and the agency may not be able to respond to inquiries until appropriations are enacted.</strong>
+<p>The NIH Clinical Center (the research hospital of NIH) is open. For more details about its operating status, please visit <a class="usa-link" href="https://www.cc.nih.gov/">cc.nih.gov</a>.</p><p>Updates regarding government operating status and resumption of normal operations can be found at <a class="usa-link" href="https://www.opm.gov/">opm.gov</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </div>
+
+
+  <header id="nci-header" class="nci-header nci-header--megamenu" data-base-path="/ccg/">
+	<div class="nci-header__navbar">
+		<div class="nci-logo" id="extended-mega-logo">
+			<a href="/ccg/">
+				<picture><source media="(min-width: 1024px)" srcset="/ccg/sites/g/files/xnrzdm256/files/ncids_header/logos/Logo_CCG_0.svg" />
+<img src="/ccg/sites/g/files/xnrzdm256/files/ncids_header/logos/Logo_CCG_Mobile_0.svg" alt="National Cancer Institute Center for Cancer Genomics Home Page" />
+</picture>
+
+			</a>
+		</div>
+
+		<div class="nci-header-nav__secondary">
+			<button class="usa-button nci-header-mobilenav__open-btn">Menu</button>
+
+							<form class="nci-header-search" method="get" action="/ccg/ccg-search-results" role="search">
+					<label class="usa-sr-only" for="nci-header-search__field">
+						Search
+					</label>
+
+																										<input class="usa-input" id="nci-header-search__field" type="search" name="swKeyword"  data-autosuggest-collection="cgov"/>
+					<button class="usa-button nci-header-search__search-button" type="submit" aria-label="Search">
+						<span class="nci-header-search__label" aria-hidden="true">Search</span>
+						<svg class="usa-icon" xmlns="http://www.w3.org/2000/svg" role="img" viewbox="0 0 24 24" aria-hidden="true">
+							<path d="M0 0h24v24H0z" fill="none"/>
+							<path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+						</svg>
+					</button>
+				</form>
+					</div>
+	</div>
+
+			<nav aria-label="Primary navigation" class="nci-header-nav">
+			<div class="nci-header-nav__inner">
+				<ul class="nci-header-nav__primary">
+											<li class="nci-header-nav__primary-item">
+																																																										<a  href="/ccg/research" class="nci-header-nav__primary-link usa-current" data-menu-id="91">
+								<span>Research</span>
+							</a>
+						</li>
+											<li class="nci-header-nav__primary-item">
+																																											<a  href="/ccg/access-data" class="nci-header-nav__primary-link" data-megamenu-disabled="true">
+								<span>Access Data</span>
+							</a>
+						</li>
+											<li class="nci-header-nav__primary-item">
+																																											<a  href="/ccg/funding-opportunities" class="nci-header-nav__primary-link" data-megamenu-disabled="true">
+								<span>Funding</span>
+							</a>
+						</li>
+											<li class="nci-header-nav__primary-item">
+																																											<a  href="/ccg/blog" class="nci-header-nav__primary-link" data-menu-id="126">
+								<span>News &amp; Events</span>
+							</a>
+						</li>
+											<li class="nci-header-nav__primary-item">
+																																											<a  href="/ccg/about" class="nci-header-nav__primary-link" data-menu-id="71">
+								<span>About CCG</span>
+							</a>
+						</li>
+											<li class="nci-header-nav__primary-item">
+																																											<a  href="/ccg/contacts" class="nci-header-nav__primary-link" data-megamenu-disabled="true">
+								<span>Contacts &amp; Help</span>
+							</a>
+						</li>
+									</ul>
+			</div>
+		</nav>
+	
+</header>
+
+
+
+<div class="grid-container">
+  <div class="grid-row flex-no-wrap">
+    <div class="grid-col-10">
+          <nav class="usa-breadcrumb usa-breadcrumb--wrap" aria-label="Breadcrumbs">
+    <ol class="usa-breadcrumb__list">
+              <li class="usa-breadcrumb__list-item">
+          <a href="/ccg/" class="usa-breadcrumb__link">
+            <span>Home</span>
+          </a>
+        </li>
+              <li class="usa-breadcrumb__list-item">
+          <a href="/ccg/research" class="usa-breadcrumb__link">
+            <span>Research</span>
+          </a>
+        </li>
+              <li class="usa-breadcrumb__list-item">
+          <a href="/ccg/research/genome-sequencing" class="usa-breadcrumb__link">
+            <span>Genome Sequencing</span>
+          </a>
+        </li>
+                    <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+          <span>The Cancer Genome Atlas Program (TCGA)</span>
+        </li>
+          </ol>
+  </nav>
+
+
+    </div>
+    
+
+      
+
+
+<section  class="cgdp-page-options cgdp-page-options--top" aria-label="Page options top">
+  <button class="usa-button usa-button--unstyled" onclick="window.print()">
+    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" class="usa-icon" role="img" aria-hidden="true" focusable="false">
+      <path d="M0 0h24v24H0z" fill="none"/>
+      <path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/>
+    </svg>
+    <span class="usa-sr-only">
+      Print    </span>
+  </button>
+  <a class="usa-button usa-button--unstyled" href="mailto:?subject=Information from the National Cancer Institute Web Site &body=I found this information on www.cancer.gov and I'd like to share it with you: https://www.cancer.gov/ccg/research/genome-sequencing/tcga %0D%0A%0D%0A NCI's Web site, www.cancer.gov, provides accurate, up-to-date, comprehensive cancer information from the U.S. government's principal agency for cancer research. If you have questions or need additional information, we invite you to contact NCI's LiveHelp instant messaging service at https://livehelp.cancer.gov, or call the NCI's Contact Center 1-800-4-CANCER (1-800-422-6237) (toll-free from the United States).">
+    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" class="usa-icon" role="img" aria-hidden="true" focusable="false">
+        <path d="M0 0h24v24H0z" fill="none"/>
+        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8l8 5 8-5v10zm-8-7L4 6h16l-8 5z"/>
+    </svg>
+    <span class="usa-sr-only">
+      Email    </span>
+  </a>
+</section>
+
+  </div>
+</div>
+
+<div id="page" class="grid-container">
+  <div class="grid-row grid-gap">
+      <!-- SECTION NAVIGATION -->
+  <div class="desktop:grid-col-3 nci-no-print">
+    
+
+
+
+  <nav aria-label="Secondary navigation">
+    <ul class="usa-sidenav">
+             
+        
+  <li class="usa-sidenav__item">
+    <a  href="/ccg/research/genome-sequencing/tcga" data-menu-id="141" class="usa-current" aria-current="page">TCGA</a>
+          <ul class="usa-sidenav__sublist">
+                                    <li class="usa-sidenav__item">
+    <a  href="/ccg/research/genome-sequencing/tcga/history" data-menu-id="591" class="nci-has-children">Program History</a>
+  </li>
+
+  
+                              <li class="usa-sidenav__item">
+    <a  href="/ccg/research/genome-sequencing/tcga/studied-cancers" data-menu-id="231">TCGA Cancers Selected for Study</a>
+  </li>
+
+  
+                              <li class="usa-sidenav__item">
+    <a  href="/ccg/research/genome-sequencing/tcga/publications" data-menu-id="226">Publications by TCGA</a>
+  </li>
+
+  
+                                    <li class="usa-sidenav__item">
+    <a  href="/ccg/research/genome-sequencing/tcga/using-tcga-data" data-menu-id="401" class="nci-has-children">Using TCGA</a>
+  </li>
+
+  
+              </ul>
+    
+  </li>
+
+  
+    </ul>
+  </nav>
+
+  </div>
+
+    <div class="desktop:grid-col-9">
+      <main class="cgdp-main-content" id="main-content">
+          <!-- Begin MAIN CONTENT AREA -->
+<div class="usa-section usa-section--cgdp-no-bottom" data-eddl-landing-row>
+  <h1 class="nci-heading-h1">The Cancer Genome Atlas Program (TCGA)</h1>
+</div>
+  <div class="usa-section" data-eddl-landing-row>
+    <div class="usa-prose usa-prose--cgdp-streamlined-wysiwyg cgdp-landing-content-block">
+      <p>The Cancer Genome Atlas (TCGA), a landmark cancer genomics program, molecularly characterized over 20,000 primary cancer and matched normal samples spanning 33 cancer types. This joint effort between NCI and the National Human Genome Research Institute began in 2006, bringing together researchers from diverse disciplines and multiple institutions.</p><p>Over the next dozen years, TCGA generated over 2.5 petabytes of genomic, epigenomic, transcriptomic, and proteomic data. The data, which has already led to improvements in our ability to diagnose, treat, and prevent cancer, will remain <a href="https://portal.gdc.cancer.gov/">publicly available</a> for anyone in the research community to use.</p>
+    </div>
+  </div>
+  
+<div class="usa-section" data-eddl-landing-row>
+            <h2 class="nci-heading-h2 padding-bottom-2 usa-sr-only">Learn more about TCGA</h2>
+  <ul class="cgdp-flag-card-group">
+                  <li  class="cgdp-flag-card">
+        
+          
+            
+    
+      
+      			
+         	<a href="/ccg/research/genome-sequencing/tcga/history" aria-labelledby="paragraph-4456"  data-eddl-landing-item="flag_card" data-eddl-landing-item-link-type="Internal">
+		  	<div class="cgdp-flag-card__image">
+					      <img loading="lazy" src="/ccg/sites/g/files/xnrzdm256/files/styles/ncids_promo_1x1/public/cgov_image/media_image/2022-06/TCGA%20people%20and%20layers%20of%20data%20425x319.jpg?h=60a9c551&amp;itok=FZC8FwWn" width="319" height="319" alt="TCGA Program" />
+
+
+
+
+			</div>
+
+		<div class="cgdp-flag-card__content">
+			<span class="cgdp-flag-card__title" id="paragraph-4456">TCGA Outcomes &amp; Impact</span>
+							<p class="cgdp-flag-card__description">TCGA has changed our understanding of cancer, how research is conducted, how the disease is treated in the clinic, and more.</p>
+					</div>
+	</a>
+
+
+  </li>
+              <li  class="cgdp-flag-card">
+    
+
+
+
+
+
+  			
+         	<a href="https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html" aria-labelledby="paragraph-4461"  data-eddl-landing-item="flag_card" data-eddl-landing-item-link-type="External">
+			<div class="cgdp-flag-card__image">
+					      <img loading="lazy" src="/ccg/sites/g/files/xnrzdm256/files/styles/ncids_promo_1x1/public/cgov_image/media_image/2022-06/TCGA%20pancancer%20crab%20425x319px.jpg?h=60a9c551&amp;itok=xZWusK7r" width="319" height="319" alt="TCGA&#039;s Pan-Cancer Atlas" />
+
+
+
+
+			</div>
+		<div class="cgdp-flag-card__content">
+			<span class="cgdp-flag-card__title" id="paragraph-4461">TCGA&#039;s Pan-Cancer Atlas</span>
+							<p class="cgdp-flag-card__description">A collection of cross-cancer analyses delving into overarching themes on cancer, including cell-of-origin patterns, oncogenic processes, and signaling pathways. Published in 2018 at the program&#039;s close.</p>
+					</div>
+	</a>
+
+
+  </li>
+  
+  </ul>
+</div>
+
+
+      <div class="usa-section" data-eddl-landing-row>
+      <div class="cgdp-list">
+                            <ul class="usa-collection">
+          
+
+    
+    
+          
+    
+      <li class="usa-collection__item" data-list-component-variant="Title, Description, and Image">
+                                  <img loading="lazy" class="usa-collection__img" src="/ccg/sites/g/files/xnrzdm256/files/styles/ncids_collections_media_4x3/public/cgov_image/media_image/2022-06/GDC-data-portal-computer-article.jpg?h=fa0b0b47&amp;itok=Nnxv-Ly6" width="160" height="120" alt="GDC Data Portal" />
+
+
+
+
+            <div class="usa-collection__body">
+      <h3 class="usa-collection__heading">
+                                            <a  class="usa-link" href="https://portal.gdc.cancer.gov/" >Access TCGA Data</a>
+              </h3>
+      <p class="usa-collection__description">Access TCGA data through the Genomic Data Commons Data Portal, along with web-based analysis and visualization tools.</p>
+    </div>
+  </li>
+
+
+          
+    
+
+          
+          
+          
+    
+      <li class="usa-collection__item" data-list-component-variant="Title, Description, and Image">
+                                  <img loading="lazy" class="usa-collection__img" src="/ccg/sites/g/files/xnrzdm256/files/styles/ncids_collections_media_4x3/public/cgov_image/media_image/2022-05/Cancers%20selected%20labeled%20-%20article.jpeg?h=90fd3a82&amp;itok=kqPNlGDA" width="160" height="120" alt="" />
+
+
+
+
+            <div class="usa-collection__body">
+      <h3 class="usa-collection__heading">
+                                            <a  class="usa-link" href="/ccg/research/genome-sequencing/tcga/studied-cancers" >TCGA Cancers Selected for Study</a>
+              </h3>
+      <p class="usa-collection__description">An overview of the 33 cancers selected for molecular characterization and the criteria TCGA used to select them.</p>
+    </div>
+  </li>
+
+
+          
+    
+
+          
+          
+          
+    
+      <li class="usa-collection__item" data-list-component-variant="Title, Description, and Image">
+                                  <img loading="lazy" class="usa-collection__img" src="/ccg/sites/g/files/xnrzdm256/files/styles/ncids_collections_media_4x3/public/cgov_image/media_image/2022-05/Computational-tools-article.jpg?h=88d0deb1&amp;itok=KStP8PYP" width="160" height="120" alt="" />
+
+
+
+
+            <div class="usa-collection__body">
+      <h3 class="usa-collection__heading">
+                                            <a  class="usa-link" href="/ccg/research/genome-sequencing/tcga/using-tcga-data/tools" >TCGA Computational Tools</a>
+              </h3>
+      <p class="usa-collection__description">Some of the data processing, visualization, and other computational tools developed by TCGA network researchers and collaborators.</p>
+    </div>
+  </li>
+
+
+          
+    
+
+          
+          
+          
+    
+      <li class="usa-collection__item" data-list-component-variant="Title, Description, and Image">
+                                  <img loading="lazy" class="usa-collection__img" src="/ccg/sites/g/files/xnrzdm256/files/styles/ncids_collections_media_4x3/public/cgov_image/media_image/2022-05/whitehead-sequencing-center-article.jpg?h=90fd3a82&amp;itok=MSXmk0ma" width="160" height="120" alt="" />
+
+
+
+
+            <div class="usa-collection__body">
+      <h3 class="usa-collection__heading">
+                                            <a  class="usa-link" href="/ccg/research/genome-sequencing/tcga/using-tcga-data/technology" >TCGA Molecular Characterization Platforms</a>
+              </h3>
+      <p class="usa-collection__description">Descriptions and supporting materials for each of the sequencing platforms and other technologies used to generate the TCGA data set.</p>
+    </div>
+  </li>
+
+
+          
+    
+
+          
+          
+          
+    
+      <li class="usa-collection__item" data-list-component-variant="Title, Description, and Image">
+                                  <img loading="lazy" class="usa-collection__img" src="/ccg/sites/g/files/xnrzdm256/files/styles/ncids_collections_media_4x3/public/cgov_image/media_image/2022-05/TCGA-history-article.jpeg?h=90fd3a82&amp;itok=l3nxg3Ve" width="160" height="120" alt="" />
+
+
+
+
+            <div class="usa-collection__body">
+      <h3 class="usa-collection__heading">
+                                            <a  class="usa-link" href="/ccg/research/genome-sequencing/tcga/history/timeline-milestones" >TCGA Timeline and Milestones</a>
+              </h3>
+      <p class="usa-collection__description">The events leading up to TCGA&#039;s inception in 2006 and major milestones in the program&#039;s history.</p>
+    </div>
+  </li>
+
+
+      </ul>
+
+      </div>
+    </div>
+  
+
+
+      </main>
+    </div>
+    <div class="desktop:grid-col-9 desktop:grid-offset-3">
+      
+
+      
+
+
+<section  class="cgdp-page-options cgdp-page-options--bottom" aria-label="Page options bottom">
+  <button class="usa-button usa-button--unstyled" onclick="window.print()">
+    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" class="usa-icon" role="img" aria-hidden="true" focusable="false">
+      <path d="M0 0h24v24H0z" fill="none"/>
+      <path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/>
+    </svg>
+    <span class="usa-sr-only">
+      Print    </span>
+  </button>
+  <a class="usa-button usa-button--unstyled" href="mailto:?subject=Information from the National Cancer Institute Web Site &body=I found this information on www.cancer.gov and I'd like to share it with you: https://www.cancer.gov/ccg/research/genome-sequencing/tcga %0D%0A%0D%0A NCI's Web site, www.cancer.gov, provides accurate, up-to-date, comprehensive cancer information from the U.S. government's principal agency for cancer research. If you have questions or need additional information, we invite you to contact NCI's LiveHelp instant messaging service at https://livehelp.cancer.gov, or call the NCI's Contact Center 1-800-4-CANCER (1-800-422-6237) (toll-free from the United States).">
+    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" class="usa-icon" role="img" aria-hidden="true" focusable="false">
+        <path d="M0 0h24v24H0z" fill="none"/>
+        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8l8 5 8-5v10zm-8-7L4 6h16l-8 5z"/>
+    </svg>
+    <span class="usa-sr-only">
+      Email    </span>
+  </a>
+</section>
+
+    </div>
+  </div>
+</div>
+
+  <div id="block-ncidsfooterenglish">
+  
+    
+      <style>
+   .cgdpl .usa-button {
+      color: #fff !important;
+   }
+   .cgdpl .usa-button.usa-button--accent-warm {
+      color: #1b1b1b !important;
+   }
+</style>
+<footer
+  class="usa-footer usa-footer--nci-big"
+  id="nci-footer"
+  aria-label="Footer"
+>
+  <div class="grid-container usa-footer__return-to-top">
+    <a href="#" aria-label="Back To Top"><span>Back To Top</span></a>
+  </div>
+  <div class="usa-footer__primary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="tablet:grid-col-8">
+          <nav class="usa-footer__nav" aria-label="Footer navigation">
+            <div class="grid-row grid-gap-4">
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section
+                  class="usa-footer__primary-content usa-footer__primary-content--collapsible"
+                >
+                  <div class="usa-footer__primary-link">About</div>
+                  <ul class="usa-list usa-list--unstyled">
+                    <li class="usa-footer__secondary-link">
+                      <a href="/ccg/about">About CCG</a>
+                    </li>
+                    <li class="usa-footer__secondary-link">
+                      <a href="/ccg/research">Learn About Our Research</a>
+                    </li>
+                    <li class="usa-footer__secondary-link">
+                      <a href="/ccg/blog">Updates & Insights Blog</a>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section
+                  class="usa-footer__primary-content usa-footer__primary-content--collapsible"
+                >
+                  <div class="usa-footer__primary-link">Resources</div>
+                  <ul class="usa-list usa-list--unstyled">
+                    <li class="usa-footer__secondary-link">
+                      <a href="https://www.cancer.gov/digital-standards"
+                        >Digital Standards for NCI Websites</a
+                      >
+                    </li>
+                    <li class="usa-footer__secondary-link">
+                      <a href="/ccg/sitemap">Site Map</a>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section
+                  class="usa-footer__primary-content usa-footer__primary-content--collapsible"
+                >
+                  <div class="usa-footer__primary-link">Policies</div>
+                  <ul class="usa-list usa-list--unstyled">
+                    <li class="usa-footer__secondary-link">
+                      <a href="https://www.cancer.gov/policies/accessibility"
+                        >Accessibility</a
+                      >
+                    </li>
+                    <li class="usa-footer__secondary-link">
+                      <a href="https://www.cancer.gov/policies/copyright-reuse"
+                        >Copyright & Reuse</a
+                      >
+                    </li>
+                    <li class="usa-footer__secondary-link">
+                      <a href="https://www.cancer.gov/policies/foia">FOIA</a>
+                    </li>
+                    <li class="usa-footer__secondary-link">
+                      <a href="https://www.cancer.gov/policies/privacy-security"
+                        >Privacy & Security</a
+                      >
+                    </li>
+                    <li class="usa-footer__secondary-link">
+                      <a href="https://www.cancer.gov/policies/disclaimer"
+                        >Disclaimers</a
+                      >
+                    </li>
+                    <li class="usa-footer__secondary-link">
+                      <a
+                        href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html"
+                        >Vulnerability Disclosure</a
+                      >
+                    </li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="tablet:grid-col-4">
+          <div class="usa-sign-up">
+            <div class="usa-sign-up__heading">Sign up for email updates</div>
+            <form
+              action="https://public.govdelivery.com/accounts/USNIHNCI/subscribers/qualify"
+              aria-label="Footer subscribe"
+              class="usa-form"
+              accept-charset="UTF-8"
+              method="post"
+              novalidate
+              target="_blank"
+              id="signup"
+            >
+              <input name="utf8" type="hidden" value="✓" />
+              <input
+                type="hidden"
+                name="topic_id"
+                id="topic_id"
+                value="USNIHNCI_159"
+              />
+              <input
+                type="hidden"
+                name="subscription_type"
+                id="subscription_type"
+                value="email"
+              />
+              <div class="usa-form-group">
+                <label class="usa-label" for="email">
+                  Enter your email address
+                </label>
+                <input
+                  class="usa-input width-full"
+                  id="email"
+                  name="email"
+                  type="email"
+                  value=""
+                />
+              </div>
+              <button class="usa-button usa-button--accent-warm" type="submit">
+                Sign up
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="usa-footer__secondary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="usa-footer__logo grid-row desktop:grid-col-5">
+          <div class="mobile-lg:grid-col-auto desktop:margin-bottom-3">
+            <p class="usa-footer__logo-heading">
+              <span class="logo__agency-name">Center for Cancer Genomics</span>
+              <span class="logo__parent-organization"
+                >at the National Cancer Institute
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="usa-footer__contact-links mobile-lg:grid-col-7">
+          <div class="usa-footer__contact-heading">Contact Us</div>
+          <div class="usa-footer__address">
+            <div class="usa-footer__contact-info grid-row grid-gap">
+              <div class="tablet:grid-col-auto">
+                <a href="mailto:ncisccggenomics@mail.nih.gov"
+                  >NCICCGenomics@mail.nih.gov</a
+                >
+              </div>
+              <div class="tablet:grid-col-auto">
+                <a href="/ccg/contacts">Contact CCG</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-row grid-gap">
+        <div class="usa-footer__social-links desktop:grid-col-5">
+          <div class="usa-footer__social-heading"></div>
+          <div class="grid-row grid-gap-1 nci-big__social">
+            <div class="grid-col-auto">
+            </div>
+          </div>
+        </div>
+        <div class="usa-footer__contact-links desktop:grid-col-7">
+          <div class="usa-footer__address height-full">
+            <div class="usa-footer__contact-info grid-row grid-gap height-full">
+              <address>
+                <a href="https://www.hhs.gov/"
+                  >U.S. Department of Health and Human Services
+                </a>
+                <a href="https://www.nih.gov/"
+                  >National Institutes of Health
+                </a>
+                <a href="https://www.cancer.gov/">National Cancer Institute </a>
+                <a href="https://usa.gov/">USA.gov</a>
+              </address>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  </div>
+
+
+
+  </div>
+
+    <script src="/ccg/profiles/custom/cgov_site/themes/custom/ncids_trans/dist/js/ncids-minimal.js?t3ucbp"></script>
+<script src="/ccg/profiles/custom/cgov_site/themes/custom/ncids_trans/dist/js/ncids-mini-landing.js?t3ucbp"></script>
+
+    
+  </body>
+</html>

@@ -1,0 +1,11 @@
+ucec
+brca
+ccrcc
+coad
+gbm
+hnscc
+lscc
+luad
+ov
+pdac
+all_cancers
